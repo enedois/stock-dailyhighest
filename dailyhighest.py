@@ -16,4 +16,4 @@ for item in stocklist:
 
 
 for item in exchange:
-    print(item.ticker_,item.min_) 
+    print(item.ticker_,item.min_)
