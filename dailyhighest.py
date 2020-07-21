@@ -14,6 +14,5 @@ class Stock:
 for item in stocklist:
    exchange.append(Stock(item,randint(0, 100),randint(0, 100),randint(0, 100)))
 
-
 for item in exchange:
     print(item.ticker_,item.min_)
